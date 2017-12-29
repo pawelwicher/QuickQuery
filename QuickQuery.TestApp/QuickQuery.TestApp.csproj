@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickQuery\QuickQuery.csproj">
+      <Project>{f4c597d9-f8d2-40fd-8d83-2eee58f6581d}</Project>
+      <Name>QuickQuery</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
